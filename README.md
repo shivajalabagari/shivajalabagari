@@ -4,10 +4,10 @@
 - **Task**: The `get_data_by_brand` function fetches data  and  it refers to local JSON files (`{brand}-places.json
 - **CODE**:
     
-  
+  '''CODE
     def get_data_by_brand(brand: str, logger: logging.Logger = LOGGER) -> DataFrame:
         # Fetch data from local JSON file based on brand
-    ``
+    '''
 
 ## 2. Created Logger Object
 - **Task**: Set up logging to a file named `assignment.log`. i created a logger object configured it to log messages at the INFO level.
